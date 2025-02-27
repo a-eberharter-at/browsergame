@@ -1,0 +1,12 @@
+{
+  "name": "my-project",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev:server": "cd server && bun --watch index.ts",
+    "dev:client": "cd client && bun run dev"
+  }
+}
